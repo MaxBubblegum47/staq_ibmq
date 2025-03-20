@@ -1,0 +1,62 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.016558485595031758,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.016558485595031758,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.010693455894408732,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.013943462569729087,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "fidelity": 0.010693455894408732,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.013943462569729087,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.01474875752789484,
+      "target": 4
+    },
+    {
+      "control": 4,
+      "fidelity": 0.01474875752789484,
+      "target": 3
+    }
+  ],
+  "name": "5 qubits ibmq_belem",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}

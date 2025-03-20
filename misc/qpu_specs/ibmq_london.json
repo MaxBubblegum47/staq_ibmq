@@ -1,0 +1,62 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.008525688357260142,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.008525688357260142,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.008413436919392198,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.013250883557624188,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "fidelity": 0.008413436919392198,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.013250883557624188,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.021034075642335004,
+      "target": 4
+    },
+    {
+      "control": 4,
+      "fidelity": 0.021034075642335004,
+      "target": 3
+    }
+  ],
+  "name": "5 qubits ibmq_london",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}

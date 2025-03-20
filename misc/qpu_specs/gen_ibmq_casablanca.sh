@@ -1,0 +1,1 @@
+staq_device_generator graph -n 7 --name "7 qubits ibmq_casablanca" -u 0 1 -u 1 0 -u 1 2 -u 1 3 -u 2 1 -u 3 1 -u 3 5 -u 4 5 -u 5 3 -u 5 4 -u 5 6 -u 6 5 > ibmq_casablanca.json

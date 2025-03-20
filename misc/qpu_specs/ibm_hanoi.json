@@ -1,0 +1,368 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.006357420265272751,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.006357420265272751,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.0036825930396536255,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.005321346562177809,
+      "target": 4
+    },
+    {
+      "control": 2,
+      "fidelity": 0.0036825930396536255,
+      "target": 1
+    },
+    {
+      "control": 2,
+      "fidelity": 0.012094161701677514,
+      "target": 3
+    },
+    {
+      "control": 3,
+      "fidelity": 0.012094161701677514,
+      "target": 2
+    },
+    {
+      "control": 3,
+      "fidelity": 0.006968307084630532,
+      "target": 5
+    },
+    {
+      "control": 4,
+      "fidelity": 0.005321346562177809,
+      "target": 1
+    },
+    {
+      "control": 4,
+      "fidelity": 0.00762651350114224,
+      "target": 7
+    },
+    {
+      "control": 5,
+      "fidelity": 0.006968307084630532,
+      "target": 3
+    },
+    {
+      "control": 5,
+      "fidelity": 0.024196133150740873,
+      "target": 8
+    },
+    {
+      "control": 6,
+      "fidelity": 0.00429950285120731,
+      "target": 7
+    },
+    {
+      "control": 7,
+      "fidelity": 0.00762651350114224,
+      "target": 4
+    },
+    {
+      "control": 7,
+      "fidelity": 0.00429950285120731,
+      "target": 6
+    },
+    {
+      "control": 7,
+      "fidelity": 0.00759069213567834,
+      "target": 10
+    },
+    {
+      "control": 8,
+      "fidelity": 0.024196133150740873,
+      "target": 5
+    },
+    {
+      "control": 8,
+      "fidelity": 0.008506915871418552,
+      "target": 9
+    },
+    {
+      "control": 8,
+      "fidelity": 0.006642075980445833,
+      "target": 11
+    },
+    {
+      "control": 9,
+      "fidelity": 0.008506915871418552,
+      "target": 8
+    },
+    {
+      "control": 10,
+      "fidelity": 0.00759069213567834,
+      "target": 7
+    },
+    {
+      "control": 10,
+      "fidelity": 0.012336794143630897,
+      "target": 12
+    },
+    {
+      "control": 11,
+      "fidelity": 0.006642075980445833,
+      "target": 8
+    },
+    {
+      "control": 11,
+      "fidelity": 0.00707849526409296,
+      "target": 14
+    },
+    {
+      "control": 12,
+      "fidelity": 0.012336794143630897,
+      "target": 10
+    },
+    {
+      "control": 12,
+      "fidelity": 0.005247526291353555,
+      "target": 13
+    },
+    {
+      "control": 12,
+      "fidelity": 0.01309719449542407,
+      "target": 15
+    },
+    {
+      "control": 13,
+      "fidelity": 0.005247526291353555,
+      "target": 12
+    },
+    {
+      "control": 13,
+      "fidelity": 0.004709347951406734,
+      "target": 14
+    },
+    {
+      "control": 14,
+      "fidelity": 0.00707849526409296,
+      "target": 11
+    },
+    {
+      "control": 14,
+      "fidelity": 0.004709347951406734,
+      "target": 13
+    },
+    {
+      "control": 14,
+      "fidelity": 0.009847791267468736,
+      "target": 16
+    },
+    {
+      "control": 15,
+      "fidelity": 0.01309719449542407,
+      "target": 12
+    },
+    {
+      "control": 15,
+      "fidelity": 0.013049747614580776,
+      "target": 18
+    },
+    {
+      "control": 16,
+      "fidelity": 0.009847791267468736,
+      "target": 14
+    },
+    {
+      "control": 16,
+      "fidelity": 0.006337542369056093,
+      "target": 19
+    },
+    {
+      "control": 17,
+      "fidelity": 0.007561349832055975,
+      "target": 18
+    },
+    {
+      "control": 18,
+      "fidelity": 0.013049747614580776,
+      "target": 15
+    },
+    {
+      "control": 18,
+      "fidelity": 0.007561349832055975,
+      "target": 17
+    },
+    {
+      "control": 18,
+      "fidelity": 0.004606278511712469,
+      "target": 21
+    },
+    {
+      "control": 19,
+      "fidelity": 0.006337542369056093,
+      "target": 16
+    },
+    {
+      "control": 19,
+      "fidelity": 0.006482538837842389,
+      "target": 20
+    },
+    {
+      "control": 19,
+      "fidelity": 0.008353026850019152,
+      "target": 22
+    },
+    {
+      "control": 20,
+      "fidelity": 0.006482538837842389,
+      "target": 19
+    },
+    {
+      "control": 21,
+      "fidelity": 0.004606278511712469,
+      "target": 18
+    },
+    {
+      "control": 21,
+      "fidelity": 0.01727369895539732,
+      "target": 23
+    },
+    {
+      "control": 22,
+      "fidelity": 0.008353026850019152,
+      "target": 19
+    },
+    {
+      "control": 22,
+      "fidelity": 0.0061355063177596925,
+      "target": 25
+    },
+    {
+      "control": 23,
+      "fidelity": 0.01727369895539732,
+      "target": 21
+    },
+    {
+      "control": 23,
+      "fidelity": 0.022998772467994755,
+      "target": 24
+    },
+    {
+      "control": 24,
+      "fidelity": 0.022998772467994755,
+      "target": 23
+    },
+    {
+      "control": 24,
+      "fidelity": 0.0175616132547268,
+      "target": 25
+    },
+    {
+      "control": 25,
+      "fidelity": 0.0061355063177596925,
+      "target": 22
+    },
+    {
+      "control": 25,
+      "fidelity": 0.0175616132547268,
+      "target": 24
+    },
+    {
+      "control": 25,
+      "fidelity": 0.005525208032735179,
+      "target": 26
+    },
+    {
+      "control": 26,
+      "fidelity": 0.005525208032735179,
+      "target": 25
+    }
+  ],
+  "name": "27 qubits ibm_hanoi",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.006623116964874165,
+      "target": 1
+    },
+    {
+      "control": 0,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.006623116964874165,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.017472769975478503,
+      "target": 2
+    },
+    {
+      "control": 2,
+      "target": 0
+    },
+    {
+      "control": 2,
+      "fidelity": 0.017472769975478503,
+      "target": 1
+    },
+    {
+      "control": 2,
+      "fidelity": 0.00813625029916143,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "target": 4
+    },
+    {
+      "control": 3,
+      "fidelity": 0.00813625029916143,
+      "target": 2
+    },
+    {
+      "control": 3,
+      "fidelity": 0.008449236350603101,
+      "target": 4
+    },
+    {
+      "control": 4,
+      "target": 2
+    },
+    {
+      "control": 4,
+      "fidelity": 0.008449236350603101,
+      "target": 3
+    }
+  ],
+  "name": "5 qubits ibmqx2",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}

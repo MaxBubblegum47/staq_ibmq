@@ -1,0 +1,62 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.01887342804285158,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.01887342804285158,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.010750454833694828,
+      "target": 2
+    },
+    {
+      "control": 2,
+      "fidelity": 0.010750454833694828,
+      "target": 1
+    },
+    {
+      "control": 2,
+      "fidelity": 0.009424584745181264,
+      "target": 3
+    },
+    {
+      "control": 3,
+      "fidelity": 0.009424584745181264,
+      "target": 2
+    },
+    {
+      "control": 3,
+      "fidelity": 0.007468924043358027,
+      "target": 4
+    },
+    {
+      "control": 4,
+      "fidelity": 0.007468924043358027,
+      "target": 3
+    }
+  ],
+  "name": "5 qubits ibmq_manila",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}

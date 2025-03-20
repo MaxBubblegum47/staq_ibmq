@@ -1,0 +1,62 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.011103248355355783,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.011103248355355783,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.027736236070557863,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.017566520362497423,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "fidelity": 0.027736236070557863,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.017566520362497423,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.028216340539820528,
+      "target": 4
+    },
+    {
+      "control": 4,
+      "fidelity": 0.028216340539820528,
+      "target": 3
+    }
+  ],
+  "name": "5 qubits ibmq_essex",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}

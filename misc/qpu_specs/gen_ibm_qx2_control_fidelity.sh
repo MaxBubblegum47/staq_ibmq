@@ -1,0 +1,1 @@
+./staq_device_generator graph -n 5 --name "5 qubit IBM QX2 device" -D 0 1 0.5 -D 0 2 0.03 -D 1 2 0.9 -D 3 2 0.8 -D 3 4 0.02 -D 4 2 0.001

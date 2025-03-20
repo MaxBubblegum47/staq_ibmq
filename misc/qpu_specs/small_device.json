@@ -1,0 +1,33 @@
+{
+    "couplings": [
+      {
+        "control": 0,
+        "target": 1
+      },
+      {
+        "control": 1,
+        "target": 0
+      },
+      {
+        "control": 2,
+        "fidelity": 0.8,
+        "target": 3
+      }
+    ],
+    "name": "Custom Device",
+    "qubits": [
+      {
+        "fidelity": 0.9,
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      },
+      {
+        "id": 3
+      }
+    ]
+  }

@@ -1,0 +1,1 @@
+staq_device_generator graph -n 5 --name "5 qubit test device" -f 0 0.001 -f 0 0.9 -f 0 0.01 -f 1 0.5 -f 3 0.6 -f 3 0.7 -f 4 0.02 -u 0 1 -u 1 2 -u 2 3 -u 3 0

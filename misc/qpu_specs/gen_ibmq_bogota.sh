@@ -1,0 +1,1 @@
+staq_device_generator graph -n 5 --name "5 qubits ibmq_bogota" -u 0 1 -u 1 0 -u 1 2 -u 2 1 -u 2 3 -u 3 2 -u 3 4 -u 4 3 > ibmq_bogota.json

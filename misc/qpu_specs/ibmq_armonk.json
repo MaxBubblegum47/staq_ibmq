@@ -1,0 +1,8 @@
+{
+  "name": "1 qubits ibmq_armonk",
+  "qubits": [
+    {
+      "id": 0
+    }
+  ]
+}

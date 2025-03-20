@@ -1,0 +1,112 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.03521401370473984,
+      "target": 1
+    },
+    {
+      "control": 0,
+      "fidelity": 0.04987411721502363,
+      "target": 5
+    },
+    {
+      "control": 1,
+      "fidelity": 0.03521401370473984,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.037493190769214924,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "target": 3
+    },
+    {
+      "control": 1,
+      "fidelity": 0.03427838652765164,
+      "target": 6
+    },
+    {
+      "control": 2,
+      "fidelity": 0.037493190769214924,
+      "target": 1
+    },
+    {
+      "control": 2,
+      "fidelity": 0.04025723379314397,
+      "target": 6
+    },
+    {
+      "control": 3,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "target": 5
+    },
+    {
+      "control": 4,
+      "target": 5
+    },
+    {
+      "control": 5,
+      "fidelity": 0.04987411721502363,
+      "target": 0
+    },
+    {
+      "control": 5,
+      "target": 3
+    },
+    {
+      "control": 5,
+      "target": 4
+    },
+    {
+      "control": 5,
+      "fidelity": 0.02293471169776723,
+      "target": 6
+    },
+    {
+      "control": 6,
+      "fidelity": 0.03427838652765164,
+      "target": 1
+    },
+    {
+      "control": 6,
+      "fidelity": 0.04025723379314397,
+      "target": 2
+    },
+    {
+      "control": 6,
+      "fidelity": 0.02293471169776723,
+      "target": 5
+    }
+  ],
+  "name": "7 qubits ibm_oslo",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ]
+}

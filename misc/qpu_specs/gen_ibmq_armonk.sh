@@ -1,0 +1,1 @@
+staq_device_generator graph -n 1 --name "1 qubits ibmq_armonk" > ibmq_armonk.json

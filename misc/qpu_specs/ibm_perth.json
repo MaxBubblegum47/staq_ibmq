@@ -1,0 +1,88 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.007029932355712976,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.007029932355712976,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.007935151064707213,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.00846195409719605,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "fidelity": 0.007935151064707213,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.00846195409719605,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.00901246494553054,
+      "target": 5
+    },
+    {
+      "control": 4,
+      "fidelity": 0.019482343465518498,
+      "target": 5
+    },
+    {
+      "control": 5,
+      "fidelity": 0.00901246494553054,
+      "target": 3
+    },
+    {
+      "control": 5,
+      "fidelity": 0.019482343465518498,
+      "target": 4
+    },
+    {
+      "control": 5,
+      "fidelity": 0.012708533536706618,
+      "target": 6
+    },
+    {
+      "control": 6,
+      "fidelity": 0.012708533536706618,
+      "target": 5
+    }
+  ],
+  "name": "7 qubits ibm_perth",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ]
+}

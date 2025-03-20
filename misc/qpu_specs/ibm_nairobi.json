@@ -1,0 +1,88 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.007771866789264448,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.007771866789264448,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.006071005105904914,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.007921173114945335,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "fidelity": 0.006071005105904914,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.007921173114945335,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.01015514536884643,
+      "target": 5
+    },
+    {
+      "control": 4,
+      "fidelity": 0.006194862109557553,
+      "target": 5
+    },
+    {
+      "control": 5,
+      "fidelity": 0.01015514536884643,
+      "target": 3
+    },
+    {
+      "control": 5,
+      "fidelity": 0.006194862109557553,
+      "target": 4
+    },
+    {
+      "control": 5,
+      "fidelity": 0.009177135385763452,
+      "target": 6
+    },
+    {
+      "control": 6,
+      "fidelity": 0.009177135385763452,
+      "target": 5
+    }
+  ],
+  "name": "7 qubits ibm_nairobi",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ]
+}

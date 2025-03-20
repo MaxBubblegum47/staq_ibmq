@@ -2,9 +2,9 @@ name: GitHub actions
 
 on:
   push:
-    branches: ["**"]
+    branches: [ "**" ]
   pull_request:
-    branches: ["**"]
+    branches: [ "**" ]
 
 env:
   BUILD_TYPE: Debug
@@ -13,11 +13,11 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ ubuntu-latest, macos-latest, windows-latest ]
     runs-on: ${{ matrix.os }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Install vcpkg (Windows)
         if: runner.os == 'Windows'
@@ -48,16 +48,16 @@ jobs:
               -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake \
               -DINSTALL_SOURCES=ON
           else
-            cmake -B build -DINSTALL_SOURCES=ON -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
+            cmake -B build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} \
+              -DINSTALL_SOURCES=ON
           fi
 
       - name: Build staq
         shell: bash
         run: |
           if [ "$RUNNER_OS" == "macOS" ]; then
-            # Required for libgmp headers
-            export CPATH=$LIBRARY_PATH:/opt/homebrew/include
-            export LIBRARY_PATH=$LIBRARY_PATH:/opt/homebrew/lib
+            export CPATH=$LIBRARY_PATH:/usr/local/include
+            export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/lib
           fi
           cmake --build build
 
@@ -91,16 +91,15 @@ jobs:
         shell: bash
         run: |
           if [ "$RUNNER_OS" == "macOS" ]; then
-            # Required for libgmp headers
-            export CPATH=$LIBRARY_PATH:/opt/homebrew/include
-            export LIBRARY_PATH=$LIBRARY_PATH:/opt/homebrew/lib
+            export CPATH=$LIBRARY_PATH:/usr/local/include
+            export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/lib
           fi
-          cmake --build build/unit_tests --target unit_tests
+          cmake --build build --target unit_tests
 
       - name: Run unit tests
         run: ctest --test-dir build
 
-      - name: Uninstall staq
+      - name: Uninstall
         shell: bash
         run: |
           if [ "$RUNNER_OS" == "Windows" ]; then
@@ -110,17 +109,4 @@ jobs:
           fi
 
       - name: Install pystaq
-        shell: bash
-        run: |
-          if [ "$RUNNER_OS" == "macOS" ]; then
-            # Required for libgmp headers
-            export CPATH=$LIBRARY_PATH:/opt/homebrew/include
-            export LIBRARY_PATH=$LIBRARY_PATH:/opt/homebrew/lib
-          fi
-          python3 -m venv venv
-          if [ "$RUNNER_OS" == "Windows" ]; then
-            venv/Scripts/activate
-          else
-            . venv/bin/activate
-          fi
-          pip install .
+        run: pip3 install --user .

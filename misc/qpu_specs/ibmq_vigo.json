@@ -1,0 +1,62 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.012012477900732316,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.012012477900732316,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.006589629429362032,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.0092971260000492,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "fidelity": 0.006589629429362032,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.0092971260000492,
+      "target": 1
+    },
+    {
+      "control": 3,
+      "fidelity": 0.00713013415297073,
+      "target": 4
+    },
+    {
+      "control": 4,
+      "fidelity": 0.00713013415297073,
+      "target": 3
+    }
+  ],
+  "name": "5 qubits ibmq_vigo",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}

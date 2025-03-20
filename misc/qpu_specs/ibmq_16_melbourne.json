@@ -1,0 +1,252 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.018433175203418,
+      "target": 1
+    },
+    {
+      "control": 0,
+      "fidelity": 0.024921342030678917,
+      "target": 14
+    },
+    {
+      "control": 1,
+      "fidelity": 0.018433175203418,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.014733467690550478,
+      "target": 2
+    },
+    {
+      "control": 1,
+      "fidelity": 0.0430544071637424,
+      "target": 13
+    },
+    {
+      "control": 2,
+      "fidelity": 0.014733467690550478,
+      "target": 1
+    },
+    {
+      "control": 2,
+      "fidelity": 0.029074231952134683,
+      "target": 3
+    },
+    {
+      "control": 2,
+      "fidelity": 0.05560385413564303,
+      "target": 12
+    },
+    {
+      "control": 3,
+      "fidelity": 0.029074231952134683,
+      "target": 2
+    },
+    {
+      "control": 3,
+      "fidelity": 0.031489707292669866,
+      "target": 4
+    },
+    {
+      "control": 3,
+      "fidelity": 0.03419031200973366,
+      "target": 11
+    },
+    {
+      "control": 4,
+      "fidelity": 0.031489707292669866,
+      "target": 3
+    },
+    {
+      "control": 4,
+      "fidelity": 0.027514912275282494,
+      "target": 5
+    },
+    {
+      "control": 4,
+      "fidelity": 0.04481252727157908,
+      "target": 10
+    },
+    {
+      "control": 5,
+      "fidelity": 0.027514912275282494,
+      "target": 4
+    },
+    {
+      "control": 5,
+      "fidelity": 0.051557316888027144,
+      "target": 6
+    },
+    {
+      "control": 5,
+      "fidelity": 0.035429301943697866,
+      "target": 9
+    },
+    {
+      "control": 6,
+      "fidelity": 0.051557316888027144,
+      "target": 5
+    },
+    {
+      "control": 6,
+      "fidelity": 0.030605771841479945,
+      "target": 8
+    },
+    {
+      "control": 7,
+      "fidelity": 0.027993700199691968,
+      "target": 8
+    },
+    {
+      "control": 8,
+      "fidelity": 0.030605771841479945,
+      "target": 6
+    },
+    {
+      "control": 8,
+      "fidelity": 0.027993700199691968,
+      "target": 7
+    },
+    {
+      "control": 8,
+      "fidelity": 0.026498444370525315,
+      "target": 9
+    },
+    {
+      "control": 9,
+      "fidelity": 0.035429301943697866,
+      "target": 5
+    },
+    {
+      "control": 9,
+      "fidelity": 0.026498444370525315,
+      "target": 8
+    },
+    {
+      "control": 9,
+      "fidelity": 0.029009283686826065,
+      "target": 10
+    },
+    {
+      "control": 10,
+      "fidelity": 0.04481252727157908,
+      "target": 4
+    },
+    {
+      "control": 10,
+      "fidelity": 0.029009283686826065,
+      "target": 9
+    },
+    {
+      "control": 10,
+      "fidelity": 0.021063772069955355,
+      "target": 11
+    },
+    {
+      "control": 11,
+      "fidelity": 0.03419031200973366,
+      "target": 3
+    },
+    {
+      "control": 11,
+      "fidelity": 0.021063772069955355,
+      "target": 10
+    },
+    {
+      "control": 11,
+      "fidelity": 0.01785777064032057,
+      "target": 12
+    },
+    {
+      "control": 12,
+      "fidelity": 0.05560385413564303,
+      "target": 2
+    },
+    {
+      "control": 12,
+      "fidelity": 0.01785777064032057,
+      "target": 11
+    },
+    {
+      "control": 12,
+      "fidelity": 0.026085358646657064,
+      "target": 13
+    },
+    {
+      "control": 13,
+      "fidelity": 0.0430544071637424,
+      "target": 1
+    },
+    {
+      "control": 13,
+      "fidelity": 0.026085358646657064,
+      "target": 12
+    },
+    {
+      "control": 13,
+      "fidelity": 0.04386952992715626,
+      "target": 14
+    },
+    {
+      "control": 14,
+      "fidelity": 0.024921342030678917,
+      "target": 0
+    },
+    {
+      "control": 14,
+      "fidelity": 0.04386952992715626,
+      "target": 13
+    }
+  ],
+  "name": "15 qubits ibmq_16_melbourne",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    }
+  ]
+}

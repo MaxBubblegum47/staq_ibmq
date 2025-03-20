@@ -1,0 +1,6 @@
+# this for autogenerating all the json files from all the sh files that are available inside of the folder
+for entry in "$search_dir"/home/maxbubblegum/Fraunhofer_ITWM_LorenzoStigliano/staq/misc/qpu_specs/*.sh; 
+	# do bash "${entry}" > "${entry:76}" | cut -d "." -f1 | awk '$0=""$0".json"', old command, do not work properly I leave it here just to remember how much
+	# time I wasted on that command
+	do bash "${entry}"
+done

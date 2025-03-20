@@ -69,3 +69,9 @@ cmake_install.cmake
 CMakeCache.txt
 CMakeFiles/
 pystaq.egg-info/
+
+# QRUISE Backend
+include/staq/output/qruise.hpp
+misc/qpu_specs/gen_qruise.sh
+misc/qpu_specs/qruise.json
+src/tools/qruise.cpp

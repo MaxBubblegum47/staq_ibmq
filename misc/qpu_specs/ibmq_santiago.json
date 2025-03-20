@@ -1,0 +1,62 @@
+{
+  "couplings": [
+    {
+      "control": 0,
+      "fidelity": 0.006299998381426697,
+      "target": 1
+    },
+    {
+      "control": 1,
+      "fidelity": 0.006299998381426697,
+      "target": 0
+    },
+    {
+      "control": 1,
+      "fidelity": 0.006886237847909454,
+      "target": 2
+    },
+    {
+      "control": 2,
+      "fidelity": 0.006886237847909454,
+      "target": 1
+    },
+    {
+      "control": 2,
+      "fidelity": 0.005720220291429684,
+      "target": 3
+    },
+    {
+      "control": 3,
+      "fidelity": 0.005720220291429684,
+      "target": 2
+    },
+    {
+      "control": 3,
+      "fidelity": 0.005200142559163096,
+      "target": 4
+    },
+    {
+      "control": 4,
+      "fidelity": 0.005200142559163096,
+      "target": 3
+    }
+  ],
+  "name": "5 qubits ibmq_santiago",
+  "qubits": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}
