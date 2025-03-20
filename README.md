@@ -1,4 +1,4 @@
-# staq
+# staq_ibmq
 
 ## Version 3.5 - 8 March 2024
 
@@ -7,6 +7,8 @@
 ---
 
 ## About
+
+### General 
 
 **staq** is a modern C++ library for the synthesis, transformation,
 optimization and compilation of quantum circuits.
@@ -28,6 +30,44 @@ languages and libraries to closely follow the OpenQASM 2.0 source.
 
 Check out the [Wiki](https://github.com/softwareQinc/staq/wiki) for more
 information about the library and included tools.
+
+## Staq IBMQ
+
+This fork of staq project provied the user the chance of compiling code, from qasm to qasm, for ibm quantum
+computer architecture. Here's and exmaple:
+
+`./staq_ibmq -b kyoto < ../../../misc/benchmark/qasm/qft.qasm`
+
+There is a large number of quantum computers architecture that are available as backend not only in term of native
+gates support, but also in term of information related with the topology of the computer. The following quantum computers
+are supported:
+
+- sherbrooke
+- brisbane
+- kyiv
+- quebec
+- kawasaki
+- osaka
+- cleveland
+- nazca
+- kyoto
+- cusco
+- peekskill
+- cairo
+- hanoi
+- algiers
+- kolkata
+- mumbai
+- torino
+
+and for each of them is possible to map the quantum circuit that the user wants to compile:
+`./staq -m --device ../misc/qpu_specs/ibm_kyoto.json ../misc/benchmark/tests/small/qft.qasm`
+
+There is just one backend called IBMQ, that manage all the different configurations since most of the quantum computers
+above share the exact same native gates, but they change in term of topology. I have achieved this result scraping all the information
+from qiskit library source code. 
+
+The project is born from a collaboration between me and Fraunhofer, if you have any question please let me know.
 
 Copyright (c) 2019 - 2024 softwareQ Inc. All rights reserved.
 
