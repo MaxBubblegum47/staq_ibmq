@@ -65,7 +65,12 @@ and for each of them is possible to map the quantum circuit that the user wants 
 
 There is just one backend called IBMQ, that manage all the different configurations since most of the quantum computers
 above share the exact same native gates, but they change in term of topology. I have achieved this result scraping all the information
-from qiskit library source code. 
+from qiskit library source code. I have written a pytnon script that basically scrapes the information from qiskit source code
+and compose the bash command that then generate the .json backend configuration file for staq compiler. 
+
+The backend itself is pretty simple it takes a gate and decompose it into simple rotations. This information have been taken from qiskit source code
+and by testing the ibm quantum platform api. The source code, I have to admit, is far from being elegant, but as you can read in the paper
+the staq compiler is actually not born to do something like this. I have adapted the backend to fit into staq and to be able to operate seamlessly.
 
 The project is born from a collaboration between me and Fraunhofer, if you have any question please let me know.
 
