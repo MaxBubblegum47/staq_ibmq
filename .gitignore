@@ -75,3 +75,6 @@ include/staq/output/qruise.hpp
 misc/qpu_specs/gen_qruise.sh
 misc/qpu_specs/qruise.json
 src/tools/qruise.cpp
+
+# Python Libs
+lib/python3.11
